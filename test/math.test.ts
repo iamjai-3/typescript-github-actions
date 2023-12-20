@@ -2,7 +2,7 @@ import { add, multiply } from '../src/math';
 
 describe('Math functions', () => {
   it('should multiply 5 by 3', () => {
-    const result = multiply(5, 47);
+    const result = multiply(5, 4);
     expect(result).toEqual(20);
   });
 
